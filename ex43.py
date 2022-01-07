@@ -202,6 +202,7 @@ class EscapePod(Scene): ## Child class from Scene parent class
             """))
 
         good_pod = randint(1,5) # random 1-5
+        print(f"Number of pod {good_pod")
         guess = input("[pod #]> ")
 
 
